@@ -1,6 +1,11 @@
----
-layout: 'layout.njk'
----
+{% extends 'layout.njk' %}
+
+{% block css %}
+  <link
+    rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css"
+  >
+{% endblock %}
 
 <div class="post">
   <h1>page title</h1>
@@ -12,5 +17,14 @@ layout: 'layout.njk'
   </div>
 
   <!-- article content -->
-  <article>{{ content | safe }}</article>
+  {% block main %}
+    <h1>{{title}}</h1>
+    <article>{{ content | safe }}</article>
+  {% endblock %}
 </div>
+
+{% block scripts %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js">
+  </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+{% endblock %}
