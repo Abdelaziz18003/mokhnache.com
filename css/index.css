@@ -1,21 +1,29 @@
-body {
-  height: 100vh;
-}
-
 .homepage {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  text-align: center;
 }
 
 .homepage__avatar {
-  margin-top: 100px;
   border-radius: 50%;
   overflow: hidden;
 }
+
 .homepage__avatar img {
-  height: 8rem;
-  width: 8rem;
+  height: 12.8rem;
+  width: 12.8rem;
+}
+
+.homepage__headline {
+  font-weight: 400;
+  margin: 30px 0px 0px 0px;
+}
+
+.homepage__social-icons {
+  display: flex;
+  font-size: 2.4rem;
+  justify-content: center;
 }
