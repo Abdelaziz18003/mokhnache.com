@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abdelaziz Mokhnache</title>
+
+    <!-- OG tags -->
+    <meta property="og:title" content="og title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="og url" />
+    <meta property="og:description" content="og description" />
+    <meta property="og:image" content="og image" />
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    {% block head %}
+    {% endblock %}
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <ul>
+              <li><a href="/" class="ml-md">home</a></li>
+              <li><a href="/blog" class="ml-md">blog</a></li>
+              <li><a href="/projects" class="ml-md">projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
+</html>
