@@ -8,7 +8,7 @@ layout: 'layout.njk'
 <section class="blog">
   <h1 class="blog__heading">Blog</h1>
   <ul class="blog__posts-list">
-    {% for post in collections.post%}
+    {% for post in collections.post | reverse %}
       <li class="blog__posts-list-item">
         <a href="{{post.url}}">{{post.data.title}}</a>
         <small>{{post.date | formatDate }}</small>
