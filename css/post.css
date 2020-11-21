@@ -1,0 +1,30 @@
+.post {
+  --link-border-color: #009fff;
+  padding-bottom: 5rem;
+}
+
+.post__content {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.post__content a {
+  color: var(--link-border-color);
+}
+.post__content a:hover {
+  border-bottom: 1px solid var(--link-border-color);
+}
+
+.post__content img {
+  max-width: 100%;
+}
+
+.post__content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.post__content tr,
+.post__content th {
+  border-bottom: 1px solid #333;
+}

@@ -10,8 +10,10 @@
 
 <!-- article content -->
 {% block main %}
-  <h1 class="post__title">{{title}}</h1>
-  <article class="post__content">{{ content | safe }}</article>
+  <div class="post">
+    <h1 class="post__title">{{title}}</h1>
+    <article class="post__content">{{ content | safe }}</article>
+  </div>
 {% endblock %}
 
 {% block scripts %}

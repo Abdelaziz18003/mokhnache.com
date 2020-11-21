@@ -27,3 +27,7 @@
   font-size: 2.4rem;
   justify-content: center;
 }
+
+.homepage__social-icons a {
+  border-bottom: none;
+}
