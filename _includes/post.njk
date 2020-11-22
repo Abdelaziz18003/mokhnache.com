@@ -10,7 +10,7 @@
 
 <!-- article content -->
 {% block main %}
-  <div class="post">
+  <div class="post {% if rtl %} post--rtl arabic {% endif %}">
     <h1 class="post__title">{{title}}</h1>
     <article class="post__content">{{ content | safe }}</article>
   </div>

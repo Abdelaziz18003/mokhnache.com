@@ -3,6 +3,10 @@
   padding-bottom: 5rem;
 }
 
+.post--rtl {
+  font-size: 1.3em;
+}
+
 .post__content {
   font-size: 2rem;
   text-align: justify;
