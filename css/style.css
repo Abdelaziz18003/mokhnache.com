@@ -3,6 +3,8 @@
   --body-bg-color: #fff;
   --font-arabic-heading: KasctOne;
   --font-arabic-body: KasctOne;
+  --color-link: #009fff;
+  --transition-delay: 0.4s;
 }
 
 @font-face {

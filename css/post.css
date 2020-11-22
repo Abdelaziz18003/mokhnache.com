@@ -1,5 +1,4 @@
 .post {
-  --link-border-color: #009fff;
   padding-bottom: 5rem;
 }
 
@@ -13,10 +12,10 @@
 }
 
 .post__content a {
-  color: var(--link-border-color);
+  color: var(--color-link);
 }
 .post__content a:hover {
-  border-bottom: 1px solid var(--link-border-color);
+  border-bottom: 1px solid var(--color-link);
 }
 
 .post__content img {

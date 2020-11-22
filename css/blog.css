@@ -2,13 +2,29 @@
   direction: rtl;
 }
 
-.blog__posts-list {
+.blog__posts {
   list-style: none;
   padding: 0;
 }
 
-.blog__posts-list-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
+.blog__post {
+  padding: 1rem 0;
+}
+
+.blog__post-title {
+  font-size: 2.5rem;
+}
+
+.blog__post-title {
+  font-size: 2.5rem;
+}
+
+.blog__post-title:hover {
+  color: var(--color-link);
+  transition: color var(--transition-delay);
+}
+
+.blog__post-date {
+  color: gray;
+  font-size: 0.9em;
 }
