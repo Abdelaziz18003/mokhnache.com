@@ -11,7 +11,7 @@ layout: 'layout.njk'
     {% for post in collections.arabicPost | reverse %}
       <li class="blog__post">
         <a class="blog__post-title" href="{{post.url}}">{{post.data.title}}</a>
-        <div class="blog__post-date">{{post.date | formatDate }}</div>
+        <div class="blog__post-date">{{post.date | formatArabicDate }}</div>
       </li>
     {% endfor %}
   </ul>

@@ -1,7 +1,16 @@
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const arabicMonths = ['جانفي', 'فيفري', 'مارس', 'أفريل', 'ماي', 'جوان', 'جويلية', 'أوت', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'];
+
 module.exports.formatDate = function(date) {
   const year = date.getFullYear()
-  const month = date.getMonth() + 1
+  const month = date.getMonth()
   const day = date.getDate()
-  let formatted_date = `${day}-${month}-${year}`
-  return formatted_date
- }
+  return `${day} ${months[month]} ${year}`
+}
+
+module.exports.formatArabicDate = function(date) {
+  const year = date.getFullYear()
+  const month = date.getMonth()
+  const day = date.getDate()
+  return `${day} ${arabicMonths[month]} ${year}`
+}
