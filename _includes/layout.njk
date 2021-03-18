@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/img/avatar.jpg">
+    <link rel="shortcut icon" href="/img/favicon.png">
 
     {% block css %}
     {% endblock %}
@@ -23,10 +23,14 @@
 
   <body>
     <div class="container">
-      <header>
+      <header class="header">
+        <div class="header__logo">
+          <a href="/">
+            <img src="/img/logo.png" alt="logo">
+          </a>
+        </div>
         <nav class="navbar">
           <ul>
-              <li><a href="/">home</a></li>
               <li><a href="/blog">blog</a></li>
               <li><a href="/arabic" class="arabic">المدونة العربية</a></li>
           </ul>
