@@ -14,10 +14,27 @@
     <h1 class="post__title">{{title}}</h1>
     <article class="post__content">{{ content | safe }}</article>
   </div>
+  <div id="disqus_thread"></div>
 {% endblock %}
 
 {% block scripts %}
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js">
   </script>
   <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+  var disqus_config = function () {
+    const { origin, pathname } = window.location;
+    const permalink = origin + pathname;
+    this.page.url = permalink;
+    this.page.identifier = permalink;
+  };
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://mokhnache.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
 {% endblock %}
