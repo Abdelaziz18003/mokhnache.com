@@ -6,6 +6,10 @@
   font-size: 1.3em;
 }
 
+.post__title {
+  margin: 4rem 0;
+}
+
 .post__content {
   font-size: 2rem;
   text-align: justify;
@@ -20,6 +24,12 @@
 
 .post__content img {
   max-width: 100%;
+}
+
+.post__content .image-caption {
+  text-align: center;
+  font-size: 0.6em;
+  margin-top: -2rem;
 }
 
 .post__content table {
