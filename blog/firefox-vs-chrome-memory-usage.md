@@ -2,11 +2,10 @@
 title: "Firefox vs Chrome: Memory usage"
 date: 2018-12-17
 description: At the end of 2017, Mozilla introduced Firefox Quantum the blazing fast, completely reinvented Firefox. It was shipped with a new beautiful look and the speed compared to it's previous versions was obvious.
-photos:
-  - /img/chrome-vs-firefox.jpg
+image: /img/chrome-vs-firefox.jpg
 ---
 
-![Chrome vs Firefox image](/img/chrome-vs-firefox.jpg)
+![Chrome vs Firefox image]({{image}})
 
 At the end of 2017, Mozilla introduced Firefox Quantum the blazing fast, completely reinvented Firefox. It was shipped with a new beautiful look and the speed compared to it's previous versions was obvious. One of Mozilla's claims too was the less usage of memory compared to Google Chrome. For a Firefox user like me, this was great news. I was able to notice the speed and enjoy the new design. But, I didn't pay attention to how it compares to Chrome in memory usage.
 

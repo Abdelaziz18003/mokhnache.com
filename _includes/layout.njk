@@ -14,7 +14,10 @@
       property="og:description"
       content="{{description if description else title}}"
     />
-    <meta property="og:image" content="/img/logo-sm.png" />
+    <meta
+      property="og:image"
+      content="{{image if image else '/img/avatar.jpg'}}"
+    />
 
     <link rel="stylesheet" href="/css/style.css">
 

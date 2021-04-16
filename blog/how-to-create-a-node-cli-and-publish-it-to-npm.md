@@ -2,11 +2,10 @@
 title: How to create a node.js CLI and publish it to NPM
 date: 2019-05-26
 description: In this article, we will see together how to create a basic node.js CLI and share it with the world using NPM.
-photos:
-  - /img/node-cli.jpg
+image: /img/node-cli.jpg
 ---
 
-![node-cli](/img/node-cli.jpg)
+![node-cli]({{image}})
 
 The toy programming language that [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) created back in the 90s, has became recently one of the most powerful and popular programming languages in the world. One of the big reasons that led to that progress is the invention of Node.js in 2009 by [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl). Node.js and its large package management system NPM took Javascript from just being a simple scripting language for web browsers to be a full featured language that runs everywhere and helps building all kinds of cool pieces of software.
 
