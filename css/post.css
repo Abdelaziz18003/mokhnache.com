@@ -2,16 +2,13 @@
   padding-bottom: 5rem;
 }
 
-.post--rtl {
-  font-size: 1.3em;
-}
-
 .post__title {
   margin: 4rem 0;
 }
 
 .post__content {
-  font-size: 2rem;
+  font-size: 1.9rem;
+  line-height: 1.8;
   text-align: justify;
 }
 
