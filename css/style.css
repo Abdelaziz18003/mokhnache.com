@@ -1,15 +1,15 @@
 :root {
   --body-color: #333;
   --body-bg-color: #fff;
-  --font-arabic-heading: KasctOne;
-  --font-arabic-body: KasctOne;
+  --font-arabic-heading: Dubai;
+  --font-arabic-body: Dubai;
   --color-link: #009fff;
   --transition-delay: 0.4s;
 }
 
 @font-face {
-  font-family: "KasctOne";
-  src: url("/font/kacstone.ttf") format("truetype");
+  font-family: "Dubai";
+  src: url("/font/dubai-regular.ttf") format("truetype");
 }
 
 .arabic {
