@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve --formats=njk,css,md,jpg,png,eot,otf,svg,ttf,woff,woff2"
+    "dev": "eleventy --serve --formats=njk,css,md,jpg,png,eot,otf,svg,ttf,woff,woff2",
+    "build": "npx @11ty/eleventy --formats=njk,css,md,jpg,png,eot,otf,svg,ttf,woff,woff2"
   },
   "keywords": [],
   "author": "",
